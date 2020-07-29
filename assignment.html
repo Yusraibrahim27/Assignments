@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<title>Bootstrap Theme Company Page</title>
-
 <head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>Bootstrap Theme Company Page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -11,148 +10,150 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <style>
+ 
   body {
-      font: 400 15px Lato, sans-serif;
-      line-height: 1.8;
-      color: #818181;
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
   }
   h2 {
-      font-size: 24px;
-      text-transform: uppercase;
-      color: #303030;
-      font-weight: 600;
-      margin-bottom: 30px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
   }
   h4 {
-      font-size: 19px;
-      line-height: 1.375em;
-      color: #303030;
-      font-weight: 400;
-      margin-bottom: 30px;
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
   }  
   .jumbotron {
-      background-color: #f4511e;
-      color: #fff;
-      padding: 100px 25px;
-      font-family: Montserrat, sans-serif;
+    background-color: #0373fc;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
   }
   .container-fluid {
-      padding: 60px 50px;
+    padding: 60px 50px;
   }
   .bg-grey {
-      background-color: #f6f6f6;
+    background-color: #b8f2f1;
   }
   .logo-small {
-      color: #f4511e;
-      font-size: 50px;
+    color: #f4511e;
+    font-size: 50px;
   }
   .logo {
-      color: #f4511e;
-      font-size: 200px;
+    color: green;
+    font-size: 200px;
   }
   .thumbnail {
-      padding: 0 0 15px 0;
-      border: none;
-      border-radius: 0;
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
   }
   .thumbnail img {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
   }
   .carousel-control.right, .carousel-control.left {
-      background-image: none;
-      color: #f4511e;
+    background-image: none;
+    color: #f4511e;
   }
   .carousel-indicators li {
-      border-color: #f4511e;
+    border-color: #f4511e;
   }
   .carousel-indicators li.active {
-      background-color: #f4511e;
+    background-color: #f4511e;
   }
   .item h4 {
-      font-size: 19px;
-      line-height: 1.375em;
-      font-weight: 400;
-      font-style: italic;
-      margin: 70px 0;
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
   }
   .item span {
-      font-style: normal;
+    font-style: normal;
   }
   .panel {
-      border: 1px solid #f4511e; 
-      border-radius:0 !important;
-      transition: box-shadow 0.5s;
+    border: 1px solid #f4511e; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
   }
   .panel:hover {
-      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
-      border: 1px solid #f4511e;
-      background-color: #fff !important;
-      color: #f4511e;
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
   }
   .panel-heading {
-      color: #fff !important;
-      background-color: #f4511e !important;
-      padding: 25px;
-      border-bottom: 1px solid transparent;
-      border-top-left-radius: 0px;
-      border-top-right-radius: 0px;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
   .panel-footer {
-      background-color: white !important;
+    background-color: white !important;
   }
   .panel-footer h3 {
-      font-size: 32px;
+    font-size: 32px;
   }
   .panel-footer h4 {
-      color: #aaa;
-      font-size: 14px;
+    color: #aaa;
+    font-size: 14px;
   }
   .panel-footer .btn {
-      margin: 15px 0;
-      background-color: #f4511e;
-      color: #fff;
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
   }
   .navbar {
-      margin-bottom: 0;
-      background-color: #f4511e;
-      z-index: 9999;
-      border: 0;
-      font-size: 12px !important;
-      line-height: 1.42857143 !important;
-      letter-spacing: 4px;
-      border-radius: 0;
-      font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #337ab7;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
   }
   .navbar li a, .navbar .navbar-brand {
-      color: #fff !important;
+    color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
-      background-color: #fff !important;
+    color: #f4511e !important;
+    background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
-      border-color: transparent;
-      color: #fff !important;
+    border-color: transparent;
+    color: #fff !important;
   }
   footer .glyphicon {
-      font-size: 20px;
-      margin-bottom: 20px;
-      color: #f4511e;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
   }
   .slideanim {visibility:hidden;}
   .slide {
-      animation-name: slide;
-      -webkit-animation-name: slide;
-      animation-duration: 1s;
-      -webkit-animation-duration: 1s;
-      visibility: visible;
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
   }
   @keyframes slide {
     0% {
@@ -180,13 +181,13 @@
       margin: 25px 0;
     }
     .btn-lg {
-        width: 100%;
-        margin-bottom: 35px;
+      width: 100%;
+      margin-bottom: 35px;
     }
   }
   @media screen and (max-width: 480px) {
     .logo {
-        font-size: 150px;
+      font-size: 150px;
     }
   }
   </style>
@@ -201,7 +202,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">Logo</a>
+      <img src="logo.jpeg" height="200" width="300"  class="img-circle"/><a class="navbar-brand"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -216,61 +217,39 @@
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>Company</h1> 
-  <p>We specialize in blablabla</p> 
-  <form class="form-inline">
-    <div class="input-group">
-      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-danger">Subscribe</button>
-      </div>
-    </div>
-  </form>
+  <br><br><br><br><h1>Sunway Lagoon Waterpark</h1> 
+  <p>Pakistan's Premier Waterpark</p> 
 </div>
 
-<div id="about" class="container-fluid">
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-8">
-      <h2>About Company Page</h2><br>
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      <h2>About</h2><hr>
+      <h4>Sunway Lagoon one of Pakistan's premier Water Park. It is located just 5 minutes from Gharo Town and 50 Minutes from Karachi International Airport (subject to traffic) on 42 beautifully landscaped acres, with huge lush green coconut trees,garden,comfortable and covered food court with dining tables & chairs. More than 25 Exciting water Slides & 12 Swimming Pools.
+The Quality of water in our Park is the best ,continuously treated and filtered through the most advance filtration System imported from Spain, keeping water sparkling blue, Sunway Lagoon can be compared with any of the international standard Park all over the world.</h4><br>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-signal logo"></span>
+      <span class="glyphicon glyphicon-globe logo"></span>
     </div>
   </div>
 </div>
 
-<div class="container-fluid bg-grey">
-  <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo slideanim"></span>
-    </div>
-    <div class="col-sm-8">
-      <h2>Our Values</h2><br>
-      <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-  </div>
-</div>
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
-  <h2>SERVICES</h2>
-  <h4>What we offer</h4>
+  <h2>Our Attractions</h2>
   <br>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+  <i class='fas fa-swimmer' style='font-size:48px;color:blue'></i>   
+      <h3>OCEAN LAGOON</h3><hr>
+      <h4><p>Pakistan’s Largest Wave Pool, equipped with the World’s latest wave machine, capable of making 24 different types of the craziest waves! Now enjoy 10 different waves an hour!</p></h4>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+  <i class='fas fa-water' style='font-size:48px;color:blue'></i>
+      <h3> KIDS MANIA </h3><hr>
+      <h4><p> Great fun for kids of all ages, Kidz Mania has all the adventures kids love! They can play on any one (or all) of the 6 slides, get drenched under the giant water bucket, or have a water fight with their friends! Kidz Mania is sure to please the kids and those who are kids at heart! </p></h4>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-lock logo-small"></span>
@@ -470,25 +449,26 @@
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
 
-    // Prevent default anchor click behavior
-    event.preventDefault();
+      // Store hash
+      var hash = this.hash;
 
-    // Store hash
-    var hash = this.hash;
-
-    // Using jQuery's animate() method to add smooth page scroll
-    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 900, function(){
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
    
-      // Add hash (#) to URL when done scrolling (default click behavior)
-      window.location.hash = hash;
-    });
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
   });
   
-  // Slide in elements on scroll
   $(window).scroll(function() {
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
